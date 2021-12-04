@@ -13,6 +13,7 @@ function compute() {
 
     if (principal <= 0) {
         window.alert("Enter a positive number");
+        principalInput.focus();
         return;
     }
 
