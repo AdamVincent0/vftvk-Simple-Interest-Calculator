@@ -1,4 +1,37 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white
+}
 
+h1 {
+    color: grey;
+    font-family: verdana;
+}
 
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 480px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 50px auto 0;
+}
+
+.grid {
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: start;
+}
+
+#result {
+    grid-column: 1/-1;
+}
+
+#rate_val {
+    display: inline-block;
+    width: 60px;
+}
